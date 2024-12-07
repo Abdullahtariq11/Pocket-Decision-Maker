@@ -34,6 +34,7 @@
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/runtimeconfig.bin
+/Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/CommunityToolkit.Mvvm.dll
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/Microsoft.Extensions.Configuration.dll
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/publish/../PocketDecisionMaker.App.app/Microsoft.Extensions.DependencyInjection.dll

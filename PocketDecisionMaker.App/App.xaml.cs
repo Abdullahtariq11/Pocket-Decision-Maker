@@ -1,4 +1,6 @@
-﻿namespace PocketDecisionMaker.App;
+﻿using PocketDecisionMaker.App.Views;
+
+namespace PocketDecisionMaker.App;
 
 public partial class App : Application
 {
@@ -7,5 +9,6 @@ public partial class App : Application
 		InitializeComponent();
 
 		MainPage = new AppShell();
+		
 	}
 }

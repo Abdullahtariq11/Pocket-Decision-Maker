@@ -3,13 +3,18 @@
     x:Class="PocketDecisionMaker.App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:PocketDecisionMaker.App"
-    Shell.FlyoutBehavior="Disabled"
-    Title="PocketDecisionMaker.App">
+   xmlns:views="clr-namespace:PocketDecisionMaker.App.Views"
+    Title="PocketDecisionMaker.App"
+    FlyoutBehavior="Disabled">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+
+    <ShellContent Title="Landing Page"
+                  ContentTemplate="{DataTemplate views:LandingPage}"
+                 Route="LandingPage"
+                 />
+
+    <FlyoutItem Title="Home" FlyoutDisplayOptions="AsSingleItem">
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}"/>
+    </FlyoutItem>
 
 </Shell>

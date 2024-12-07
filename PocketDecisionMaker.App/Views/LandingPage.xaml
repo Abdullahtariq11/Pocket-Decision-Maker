@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PocketDecisionMaker.App.Views.LandingPage"
+             >
+
+    <!-- Gradient Background -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="0,1">
+            <GradientStop Color="#195386" Offset="0.0" />
+            <GradientStop Color="#0B3D91" Offset="0.5" />
+            <GradientStop Color="#020F10" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="landing_image.png"
+               Aspect="AspectFill"
+               Opacity="0.6" />
+
+        <!-- Overlay Box -->
+        <BoxView Color="Black"
+                 Opacity="0.4"
+                 InputTransparent="True" />
+
+        <!-- Content Stack -->
+        <StackLayout Spacing="120"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     Padding="20,50">
+
+            <!-- Title Section -->
+            <VerticalStackLayout Spacing="10"
+                                 HorizontalOptions="Center">
+                <Label Text="Pocket Decision Maker"
+                       FontSize="48"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold">
+                    <Label.Shadow>
+                        <Shadow Brush="#000000"
+                                Offset="3,3"
+                                Radius="8" />
+                    </Label.Shadow>
+                </Label>
+                <Label Text="Make decisions the fun way!"
+                       FontAttributes="Italic"
+                       FontSize="20"
+                       HorizontalOptions="Center"
+                       TextColor="#ADD8E6" />
+            </VerticalStackLayout>
+
+            <!-- Get Started Button -->
+            <Button Text="Get Started"
+                    FontAttributes="Bold"
+                    BackgroundColor="#FF6200EE"
+                    CornerRadius="30"
+                    Padding="15"
+                    WidthRequest="200"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    Clicked="OnGetStarted">
+                <Button.Shadow>
+                    <Shadow Brush="#6200EE"
+                            Offset="0,10"
+                            Radius="20" />
+                </Button.Shadow>
+            </Button>
+        </StackLayout>
+    </Grid>
+</ContentPage>

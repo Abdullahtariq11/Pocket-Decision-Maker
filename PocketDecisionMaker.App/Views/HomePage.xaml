@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:PocketDecisionMaker.App.ViewModels"
+             x:Class="PocketDecisionMaker.App.Views.HomePage"
+             Title="HomePage"
+            >
+
+    <ContentPage.BindingContext>
+        <vm:MainViewModel/>
+    </ContentPage.BindingContext>
+    <Grid RowDefinitions="*,*,*,*,*,*,*,*,*,*"
+          ColumnDefinitions="*,*,*">
+        <Label Text="Pocket Decision Maker"
+               Grid.Row="0"
+               Grid.Column="0"
+               Grid.ColumnSpan="3"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="25"
+               FontAttributes="Bold"/>
+
+        <Frame BorderColor="Black"
+               CornerRadius="10"
+               HasShadow="True"
+               Padding="0"
+               Margin="15"
+               Grid.Row="1"
+               Grid.Column="0"
+               Grid.ColumnSpan="3"
+               HorizontalOptions="Center">
+            <Picker Title="Predefined List"
+                    TitleColor="Gray"
+                    ItemsSource="{Binding Options}"
+                    ItemDisplayBinding="{Binding Name}"
+                    SelectedItem="{Binding SelectedOption}"
+                    FontSize="13"
+                    TextColor="#FFFFFF"
+                    BackgroundColor="#FF5F5B5B"
+                    HeightRequest="40"
+                    HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Label Text="Options"
+                Grid.Row="2"
+                Grid.ColumnSpan="3"
+                HorizontalOptions="Center"
+                FontSize="20"
+                FontAttributes="Bold"
+                Margin="10"/>
+
+        <Entry Placeholder="Option 1"
+                Grid.Row="3"
+                Grid.Column="0"
+                WidthRequest="100"
+                Margin="90,10,10,10"
+                BackgroundColor="#FF5F5B5B"
+                TextColor="White"/>
+        <Entry Placeholder="Option 2"
+                Grid.Row="3"
+                Grid.Column="2"
+                WidthRequest="100"
+                Margin="10,10,90,10"
+                BackgroundColor="#FF5F5B5B"
+                TextColor="White"
+                />
+        <Button Grid.Row="4"
+                Grid.ColumnSpan="3"
+                HorizontalOptions="Center"
+                WidthRequest="150"
+                Margin="10"
+                Text="Generate"
+                CornerRadius="20"/>
+        
+
+    </Grid>
+</ContentPage>

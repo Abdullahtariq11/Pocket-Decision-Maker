@@ -315,6 +315,9 @@
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/PocketDecisionMaker.App.pdb
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/PocketDecisionMaker.App.genruntimeconfig.cache
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/ref/PocketDecisionMaker.App.dll
+/Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/resizetizer/r/Resources/landing_image.png
+/Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/bin/Debug/net8.0-ios/iossimulator-arm64/CommunityToolkit.Mvvm.dll
+/Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/CommunityToolkit.Mvvm.stamp
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.CSharp.stamp
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.Abstractions.stamp
 /Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/obj/Debug/net8.0-ios/iossimulator-arm64/resourcestamps/Microsoft.Extensions.Configuration.stamp

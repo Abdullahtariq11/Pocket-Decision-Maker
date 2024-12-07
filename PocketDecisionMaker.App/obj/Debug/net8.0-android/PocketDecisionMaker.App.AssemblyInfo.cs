@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PocketDecisionMaker.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+32f40f88ae1882503f30827a6e2fb557a843f188")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+19d7158bd1e4d649c5c17698cf560a0d52da6482")]
 [assembly: System.Reflection.AssemblyProductAttribute("PocketDecisionMaker.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PocketDecisionMaker.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

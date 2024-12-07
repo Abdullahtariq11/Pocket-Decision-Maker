@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yQwRPls8v0Mk2E2m4iu925ksK3vS9jb+qOj1oqBfLsyS+/gd0hw/Dk6F+booqLm+GV2pqdft2UTrqBsbWN/Osg==",
+  "dgSpecHash": "5b8xbq84V6L04unF4O5ATu65t1Ze96UJ+CSGGO196kIF63yQuxdh+AFuOsuDUto07ZcoFGCjVPpDvZ3/4av9Tg==",
   "success": true,
   "projectFilePath": "/Users/abdullahtariq/Documents/GitHub/Pocket Decision Maker/PocketDecisionMaker.App/PocketDecisionMaker.App.csproj",
   "expectedPackageFiles": [
+    "/Users/abdullahtariq/.nuget/packages/communitytoolkit.mvvm/8.4.0-preview3/communitytoolkit.mvvm.8.4.0-preview3.nupkg.sha512",
     "/Users/abdullahtariq/.nuget/packages/googlegson/2.10.1.4/googlegson.2.10.1.4.nupkg.sha512",
     "/Users/abdullahtariq/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/abdullahtariq/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
